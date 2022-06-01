@@ -26,7 +26,7 @@ public:
 int main()
 {
 	SmartPtr<int> ptr(new int());
-	*ptr = 1000000;
+	*ptr(1000000);
 	std::cout << *ptr << std::endl;
 	return 0;
 }
