@@ -19,6 +19,19 @@ struct foo { int y }
 foo f;
 f.y;
 ```
+<ul>
+<li>Function call returning LValue Reference</li>
+</ul>
+
+```cpp
+
+int& funct();
+
+&funct();
+
+funct() = 7; // compileer makes no complaints 
+
+```
 
 
 <h1>RValue</h1>
