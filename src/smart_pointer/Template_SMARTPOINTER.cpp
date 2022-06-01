@@ -1,5 +1,6 @@
 #include <iostream>
 
+const int HOLD_VALUE(1000000);
 // A generic smart pointer class
 template <class T>
 class SmartPtr {
@@ -26,7 +27,7 @@ public:
 int main()
 {
 	SmartPtr<int> ptr(new int());
-	*ptr(1000000);
+	*ptr = HOLD_VALUE;
 	std::cout << *ptr << std::endl;
 	return 0;
 }
