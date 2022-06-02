@@ -20,6 +20,11 @@ Consider ```>&``` as redirect merger operator.
 
 ### END SPECIAL NOTATION
 
+
+
+
+
+
 POPEN(3)                Linux Programmer's Manual               POPEN(3)
 NAME         top
 
