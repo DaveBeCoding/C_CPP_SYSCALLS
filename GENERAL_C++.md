@@ -1,5 +1,6 @@
 <h1>LValue</h1>
 <p><u><li>One can take an address from LValue</li>
+<li>LValue appear on the left-side of the built-in assignment operator</li>
 <li>LValue can bind to LValue References</li></u></p>
 
 ```cpp
