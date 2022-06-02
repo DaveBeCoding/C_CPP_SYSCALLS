@@ -37,9 +37,14 @@ some_smart_ptr<Object> createObject() //good
 
 ```
 
-
-
 </ul>
+
+## What is ownership/Resources, Pointers</h2>
+- Resources need to be acquired and released</li>
+- Examples; Dynamic Memory, Files, and Threads ... -> Resources</Examples;>
+- "Unique OwnerShip" ... single owner of a resource who is responsible for acquiring & releasing resource</li>
+- Access to resource is only possible through its owner</li>
+
 
 <h1>Pointers/RAW</h1>   
 
