@@ -1,6 +1,7 @@
 # Ignore all
 *
-a.out
+STL_Test/*/a.out
+./a.out
 
 # Unignore all with extensions
 !*.*
