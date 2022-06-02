@@ -1,5 +1,5 @@
 # FORK()   
-- Calculate the number of ```cpp Fork() ``` processes with -> $2^n=X$
+- Calculate the number of ```Fork()``` processes with -> $2^n=X$
 - Example: 
      ```cpp  
      int main(int argc, char* argv[]){
