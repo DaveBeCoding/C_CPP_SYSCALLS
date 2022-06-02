@@ -1,4 +1,7 @@
+<h3>Scope resolution operator -> ::</h3>
+
 <h1>LValue</h1>
+
 <p><u><li>One can take an address from LValue</li>
 <li>LValue appear on the left-side of the built-in assignment operator</li>
 <li>LValue can bind to LValue References</li></u></p>
@@ -102,7 +105,10 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 
 
 ```
+<li>STL many classes are "move-aware" or "move-only"s </li>
+<li>std::move, performance and move-only friendly</li>
 
 </ul>
 
-<h1>Start</h1>
+
+<h1>START</h1>
