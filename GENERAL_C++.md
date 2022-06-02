@@ -77,3 +77,32 @@ foo(5) //RValue
 
 
 </ul>
+
+<h1>Why LValue and RValue</h1>
+<ul>
+<li>C++03 -></li>
+
+```cpp
+
+std::vector<data> v0;
+//I want to transfer ownership of resource
+std::vector<data> v1 = v0; //this only copys
+
+```
+
+<li> >= C++11 -> </li>
+
+```cpp
+
+std::vector<data> v0;
+//I want to transfer ownership of resource
+std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
+ // with promise** not to use container once transfered, memory is valid, but useless**
+
+
+
+```
+
+</ul>
+
+<h1>Start</h1>
