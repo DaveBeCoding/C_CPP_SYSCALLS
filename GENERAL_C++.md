@@ -36,3 +36,31 @@ funct() = 7; // compileer makes no complaints
 
 
 <h1>RValue</h1>
+<ul>
+<li>RValue cannot appear on the left side of built-in assignment operator</li>
+</ul>
+
+```cpp 
+5 = 0;
+```
+<ul>
+<li>Address of RValue cannot be taken, must be mutable</li>
+<li>Literals, functions that return by value</li>
+<li>RValue bind to RValue references, introduced in C++11 </li>
+
+```cpp
+int&& rv_ref0 = 5;
+int&& rv_ref1 = bar();
+
+```
+<li>RValue example</li>
+
+```cpp
+
+5;
+10.99f;
+
+```
+
+
+</ul>
