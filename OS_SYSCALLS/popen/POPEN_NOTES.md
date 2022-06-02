@@ -4,8 +4,9 @@
 - In a Unix shell, BASH
 - If I want to combine stderr and stdout into the stdout stream for further manipulation 
 - I can append the following on the end of my command:
-            - $2>&1$
-            - 
+- $2>&1$
+  
+### Descriptor  
 - File descriptor 1 is the standard output (stdout).
 - File descriptor 2 is the standard error (stderr).
 
