@@ -1,5 +1,6 @@
 # Ignore all
-*.exe
+*
+a.out
 
 # Unignore all with extensions
 !*.*
