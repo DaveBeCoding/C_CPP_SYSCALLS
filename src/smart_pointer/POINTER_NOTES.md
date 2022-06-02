@@ -1,3 +1,48 @@
+<h1>Raw ptr vs Smart Ptr</h1>   
+<ul>
+<li>When ownership is not an issue, use raw ptr -> Example</li>
+
+```cpp
+
+void PrintObject(shared_ptr<const Object> po) //bad
+{
+    if(po)
+      po->Print();
+    else
+      log_error();
+}
+
+void PrintObject(const Object* po) //good
+{
+    if(po)
+      po->Print();
+    else
+      log_error();
+}
+
+```
+
+<li>When ownership is being considered/used, use smart ptr -> Example</li>
+
+```cpp
+Object* createObject() //bad
+{
+    return new Object;
+}Í
+
+some_smart_ptr<Object> createObject() //good
+{
+   return some_smart_ptr<Object>(new Object);
+}
+
+```
+
+
+
+</ul>
+
+<h1>Pointers/RAW</h1>   
+
 ```cpp
 int *ptr[10];
 
@@ -28,3 +73,11 @@ void pointerFuncA(int* ptr){
 int x = 123;
 int* foo = &x;
 ```
+
+
+<h1>Pointers/Smart</h1>   
+
+
+<!-- section template -->
+<h1>START HERE</h1>   
+<ul><li></li></ul>

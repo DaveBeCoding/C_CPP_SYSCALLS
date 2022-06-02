@@ -1,1 +1,3 @@
-<h1>START HERE</h1>
+<!-- section template -->
+<h1>START HERE</h1>   
+<ul><li></li></ul>
