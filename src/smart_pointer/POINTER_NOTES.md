@@ -2,25 +2,25 @@
 
 - When ownership is not an issue, use raw ptr -> Example
 
-```cpp
-
-void PrintObject(shared_ptr<const Object> po) //bad
-{
-    if(po)
-      po->Print();
-    else
-      log_error();
-}
-
-void PrintObject(const Object* po) //good
-{
-    if(po)
-      po->Print();
-    else
-      log_error();
-}
-
-```
+    ```cpp
+    
+    void PrintObject(shared_ptr<const Object> po) //bad
+    {
+        if(po)
+          po->Print();
+        else
+          log_error();
+    }
+    
+    void PrintObject(const Object* po) //good
+    {
+        if(po)
+          po->Print();
+        else
+          log_error();
+    }
+    
+    ```
 
 - When ownership is being considered/used, use smart ptr -> Example
 
