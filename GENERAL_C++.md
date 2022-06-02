@@ -59,6 +59,19 @@ int&& rv_ref1 = bar();
 
 5;
 10.99f;
+9 * 10 + 9;
+
+```
+
+<li>LValue and RValue</li>
+
+```cpp
+void foo(int&){std::cout << " LValue <- ";}
+void foo(int&&){std::cout << " RValue <- ";}
+//the compiler is smart enough to tell which functioin to choose, (C++11 >)
+int x = o;
+foo(a) //LValue
+foo(5) //RValue
 
 ```
 
