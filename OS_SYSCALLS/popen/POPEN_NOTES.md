@@ -16,7 +16,7 @@ at first, 2>1 may look like a good way to redirect stderr to stdout.
  & indicates that what follows and precedes is a file descriptor and not a filename. 
  So the construct becomes: 2>&1. *
 
-Consider $>&$ as redirect merger operator.
+Consider ```>&``` as redirect merger operator.
 
 ### END SPECIAL NOTATION
 
