@@ -11,7 +11,7 @@ std::string Get_Stdout_Shell_Response(std::string shell_input) {
   std::FILE * stream;
 
   char buffer[BUFF_SIZE];
-  shell_input.append(" 2>&1");
+  shell_input.append(" 2>&1"); // **LEADING SPACE IS NEEDED**
 
   stream = popen(shell_input.c_str(), "r");
   

@@ -1,3 +1,24 @@
+#START SPECIAL NOTATION
+## Special characters used in -> example_1_popen.cpp:14:22
+-In a Unix shell, BASH
+-If I want to combine stderr and stdout into the stdout stream for further manipulation 
+-I can append the following on the end of my command:
+            - $2>&1$
+
+----------------
+File descriptor 1 is the standard output (stdout).
+File descriptor 2 is the standard error (stderr).
+
+Here is one way to remember this construct (although it is not entirely accurate): 
+at first, 2>1 may look like a good way to redirect stderr to stdout.
+ However, it will actually be interpreted as "redirect stderr to a file named 1". 
+ & indicates that what follows and precedes is a file descriptor and not a filename. 
+ So the construct becomes: 2>&1.
+
+Consider >& as redirect merger operator.
+
+### END SPECIAL NOTATION
+
 POPEN(3)                Linux Programmer's Manual               POPEN(3)
 NAME         top
 
