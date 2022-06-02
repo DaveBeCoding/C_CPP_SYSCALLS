@@ -1,6 +1,6 @@
-<h1>Raw ptr vs Smart Ptr</h1>   
-<ul>
-<li>When ownership is not an issue, use raw ptr -> Example</li>
+# Raw ptr vs Smart Ptr   
+
+- When ownership is not an issue, use raw ptr -> Example
 
 ```cpp
 
@@ -22,7 +22,7 @@ void PrintObject(const Object* po) //good
 
 ```
 
-<li>When ownership is being considered/used, use smart ptr -> Example</li>
+- When ownership is being considered/used, use smart ptr -> Example
 
 ```cpp
 Object* createObject() //bad
@@ -36,8 +36,6 @@ some_smart_ptr<Object> createObject() //good
 }
 
 ```
-
-</ul>
 
 ## What is ownership/Resources, Pointers</h2>
 - Resources need to be acquired and released</li>
