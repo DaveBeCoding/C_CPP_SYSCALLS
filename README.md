@@ -1,1 +1,1 @@
-# Notes; C/C++, SYSCALLS
+# Notes; C & C++, SYSCALLS
