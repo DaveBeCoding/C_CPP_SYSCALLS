@@ -37,12 +37,13 @@
 
     ```
 
-## What is ownership/Resources, Pointers</h2>
-- Resources need to be acquired and released</li>
-- Examples; Dynamic Memory, Files, and Threads ... -> Resources</Examples;>
-- "Unique OwnerShip" ... single owner of a resource who is responsible for acquiring & releasing resource</li>
-- Access to resource is only possible through its owner</li>
+## What is ownership/Resources, Pointers
+- Resources need to be acquired and released
+- Examples; Dynamic Memory, Files, and Threads ... -> Resource Examples
+- "Unique OwnerShip" ... single owner of a resource who is responsible for acquiring & releasing resource
+- Access to resource is only possible through its owner
 
+<hr>
 
 - Pointers/RAW   
 
@@ -58,7 +59,6 @@
     It is I believe the same as int *ptr; in that both can point to an array, but the given form can ONLY point to an array of 10 ints
     ```
 
-<hr>
 
     ```cpp
     void pointerFuncA(int* ptr){
@@ -75,6 +75,7 @@
     // get an address
     int x = 123;
     int* foo = &x;
+    
     ```
 
 
