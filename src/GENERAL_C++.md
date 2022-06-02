@@ -1,4 +1,4 @@
-<h3>Scope resolution operator -> ::</h3>
+#Scope resolution operator -> ::
 
 <h1>LValue</h1>
 
