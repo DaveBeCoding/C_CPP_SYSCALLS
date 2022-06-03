@@ -1,3 +1,5 @@
+### clang++ -g -std=[c++11] [program.cpp]
+ 
  # How to Debug Using GDB
     
     We are going to be using two programs to illustrate how GDB can be used to debug code.
@@ -180,4 +182,3 @@
     
     We find that temp is a char* which has been assigned a string literal, and so we cannot modify the contents of the literal as on line 10. This is what is causing a core dump
 
-    
