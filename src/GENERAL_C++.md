@@ -1,5 +1,65 @@
 #Scope resolution operator -> ::
 
+#
+##
+###
+
+Calculation of Modulus Operator in C
+Let us take a closer look at the internal calculation of the % operator in an available code in the C language:
+
+When p and q are integers, then
+
+$(p % q will get resolved as p – (p/q) * q)$
+
+Example,
+
+$If p = 5 and q = 2, then$
+
+p % q >> p – (p/q) * q
+
+5 % 2 >> 5 – (5/2) * 2
+
+5 – (2) * 2
+
+5 – 4
+
+1
+
+Thus, p % q here is 1.
+
+If p = 9 and q = 8, then
+
+p % q >> p – (p/q) * q
+
+9 % 3 >> 9 – (9/8) * 8
+
+9 – (1) * 8
+
+9 – 8
+
+1
+
+Thus, p % q here is 1.
+
+If p = 8 and q = 5, then
+
+p % q >> p – (p/q) * q
+
+8 % 3 >> 8 – (8/5) * 5
+
+8 – (1) * 5
+
+8 – 5
+
+3
+
+Thus, p % q here is 3.
+
+#
+##
+###
+
+
 <h1>LValue</h1>
 
 <p><u><li>One can take an address from LValue</li>
