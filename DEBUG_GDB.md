@@ -170,7 +170,14 @@
 
     10              temp[3]='F';       
     
+    4. As we can see from the output above, the core dump was produced as a result of execution of the statement on line 10: temp[3] =�F�;
+    
+    Take a closer look at the declaration of temp on line 5 :
+    
+    Z'.%#SRRRRRRRRR#)9/4#[$%-6#X#\I/4/&\Y
+    
     4.
     
     We find that temp is a char* which has been assigned a string literal, and so we cannot modify the contents of the literal as on line 10. This is what is causing a core dump
 
+    
