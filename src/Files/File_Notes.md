@@ -75,6 +75,16 @@ DESCRIPTION
 #### 
 
 
+FPUTS(3)                                                                   Library Functions Manual                                                                  
+
+NAME
+
+     fputs, puts – output a line to a stream
+
+LIBRARY
+
+     Standard C Library (libc, -lc)
+
 SYNOPSIS
 
      #include <stdio.h>
@@ -86,7 +96,12 @@ SYNOPSIS
      puts(const char *s);
 
 
-     DESCRIPTION
+DESCRIPTION
+
      The function fputs() writes the string pointed to by s to the stream pointed to by stream.
 
      The function puts() writes the string s, and a terminating newline character, to the stream stdout.
+
+RETURN VALUES
+
+     The functions fputs() and puts() return a nonnegative integer on success and EOF on error.
