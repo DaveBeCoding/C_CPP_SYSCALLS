@@ -9,21 +9,21 @@ Let us take a closer look at the internal calculation of the % operator in an av
 
 When p and q are integers, then
 
-$$ p % q will get resolved as p – (p/q) * q $$
+p % q will get resolved as p – (p/q) * q 
 
 Example,
 
-$ If p = 5 and q = 2, then $
+ If p = 5 and q = 2, then 
 
-$$ p % q >> p – (p/q) * q $$
+ p % q >> p – (p/q) * q 
 
-$ 5 % 2 >> 5 – (5/2) * 2 $
+ 5 % 2 >> 5 – (5/2) * 2 
 
-$ 5 – (2) * 2 $
+$ 5 – (2) * 2 
 
-5 – 4
+$ 5 – 4 $
 
-1
+$1$
 
 Thus, p % q here is 1.
 
