@@ -76,11 +76,11 @@ and
 ###
 
 
-<h1>LValue</h1>
+# LValue
 
-<p><u><li>One can take an address from LValue</li>
-<li>LValue appear on the left-side of the built-in assignment operator</li>
-<li>LValue can bind to LValue References</li></u></p>
+- One can take an address from LValue
+    - LValue appear on the left-side of the built-in assignment operator
+    - LValue can bind to LValue References
 
 ```cpp
     int x = 0;
@@ -88,20 +88,16 @@ and
     
     //also
     x;
-
 ```
-<ul>
-<li>Member of object</li>
-</ul>
+
+- Member of object
 
 ```cpp
 struct foo { int y }
 foo f;
 f.y;
 ```
-<ul>
-<li>Function call returning LValue Reference</li>
-</ul>
+- Function call returning LValue Reference
 
 ```cpp
 
@@ -114,25 +110,23 @@ funct() = 7; // compileer makes no complaints
 ```
 
 
-<h1>RValue</h1>
-<ul>
-<li>RValue cannot appear on the left side of built-in assignment operator</li>
-</ul>
+# RValue
+- RValue cannot appear on the left side of built-in assignment operator
 
 ```cpp 
 5 = 0;
 ```
-<ul>
-<li>Address of RValue cannot be taken, must be mutable</li>
-<li>Literals, functions that return by value</li>
-<li>RValue bind to RValue references, introduced in C++11 </li>
+
+- Address of RValue cannot be taken, must be mutable
+- Literals, functions that return by value
+- RValue bind to RValue references, introduced in C++11
 
 ```cpp
 int&& rv_ref0 = 5;
 int&& rv_ref1 = bar();
 
 ```
-<li>RValue example</li>
+- RValue example
 
 ```cpp
 
@@ -142,7 +136,7 @@ int&& rv_ref1 = bar();
 
 ```
 
-<li>LValue and RValue</li>
+- LValue and RValue
 
 ```cpp
 void foo(int&){std::cout << " LValue <- ";}
@@ -157,9 +151,8 @@ foo(5) //RValue
 
 </ul>
 
-<h1>Why LValue and RValue</h1>
-<ul>
-<li>C++03 -></li>
+# Why LValue and RValue
+- C++03 ->
 
 ```cpp
 
@@ -169,7 +162,7 @@ std::vector<data> v1 = v0; //this only copys
 
 ```
 
-<li> >= C++11 -> </li>
+- >= C++11 ->
 
 ```cpp
 
@@ -178,24 +171,14 @@ std::vector<data> v0;
 std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
  // with promise** not to use container once transfered, memory is valid, but useless**
 
-
-
 ```
-<li>STL many classes are "move-aware" or "move-only"s </li>
-<li>std::move, performance and move-only friendly</li>
+- STL many classes are "move-aware" or "move-only"s
+- std::move, performance and move-only friendly
 
-</ul>
-
-
-<h1>START HERE</h1>
-<ul><li></li></ul>
-
-
-
-
-<!-- section template -->
-<h1>START HERE</h1>   
-<ul><li></li></ul>
+#
+##
+###
+####   
 
 ###     C++ Fundamental Data Types
 |    Data Type | Bytes             |
@@ -213,3 +196,7 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 ##
 ###
 ####   
+
+# START HERE
+- sample input
+<!-- section template -->
