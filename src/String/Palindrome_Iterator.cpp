@@ -5,7 +5,8 @@ int main()
 {
     std::string str;
     std::cout << "Input String :";
-    std::cin >> str;
+    getline(std::cin, str);
+    // std::cin >> str;
 
     std::string::iterator it;
     std::string::reverse_iterator it1;
