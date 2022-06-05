@@ -4,7 +4,7 @@
 
 // coded algorithms for the operations.
 
-/ A triangle ADT.
+// A triangle ADT.
 struct Triangle {
   double side1;
   double side2;
@@ -26,3 +26,5 @@ class Book {
 };
 
 // Concrete Data Type (CDT),
+// 
+// 
