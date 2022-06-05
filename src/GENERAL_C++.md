@@ -18,6 +18,8 @@ and
 ##
 ###
 
+# C -> 32 keywords += [C++ -> 52 keywords]
+
 ### Calculation of Modulus Operator in C
     Let us take a closer look at the internal calculation of the % operator in an available code in the C language:
 
@@ -194,3 +196,24 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 <!-- section template -->
 <h1>START HERE</h1>   
 <ul><li></li></ul>
+
+###     C++ Fundamental Data Types
+
+    |Data Type	Meaning	Size (in Bytes)|
+    |----------------------------------|
+    |int	Integer	2 or 4             |
+    |----------------------------------|             |
+    |float	Floating-point	4          |
+    |----------------------------------|
+    |double	Double Floating-point	8  |
+    |----------------------------------|
+    |char	Character	1              |
+    |----------------------------------|
+    |wchar_t	Wide Character	2      |
+    |----------------------------------|
+    |bool	Boolean	1                  |
+    |----------------------------------|
+    |void	Empty	0                  |
+    |----------------------------------|
+
+####    8 bits make a Byte
