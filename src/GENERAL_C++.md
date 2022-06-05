@@ -198,7 +198,6 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 <ul><li></li></ul>
 
 ###     C++ Fundamental Data Types
-
 |    Data Type | Bytes             |
 | ------------ | ----------------- |   
 | int          | Integer 2 or 4    |
@@ -208,10 +207,9 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 | char         | Character 1       |
 | bool         | Boolean 1         |
 | void         | Empty 0           |
-
 ####   8 bits make a Byte
 
-| Data Type      | Description |
-| -------------- | ----------- |
-| Header         | Title       |
-| Paragraph      | Text        |
+#
+##
+###
+####   
