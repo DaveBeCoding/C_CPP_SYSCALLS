@@ -202,19 +202,12 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
     |    Data Type | Bytes             |
     | ------------ | ----------------- |   
     | int          | Integer 2 or 4    |
-    | ------------ | ----------------- |
     | float        | Floating-Point 4  |
-    | ------------ | ----------------- |
     | double       | Floating-Point 8  |
-    | ------------ | ----------------- |
     | long         | 8                 |
-    | ------------ | ----------------- |
     | char         | Character 1       |
-    | ------------ | ----------------- |
     | bool         | Boolean 1         |
-    | ------------ | ----------------- |
     | void         | Empty 0           |
-    | ------------ | ----------------- |
 
 ####    8 bits make a Byte
 
