@@ -4,6 +4,20 @@
 ##
 ###
 
+- In C++11, function declaration:
+        
+        return-type identifier ( argument-declarations... )
+
+and
+
+        auto identifier ( argument-declarations... ) -> return_type
+
+- They are equivalent.
+
+#
+##
+###
+
 ### Calculation of Modulus Operator in C
     Let us take a closer look at the internal calculation of the % operator in an available code in the C language:
 

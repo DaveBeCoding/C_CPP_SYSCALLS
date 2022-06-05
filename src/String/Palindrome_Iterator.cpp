@@ -35,9 +35,11 @@ int main()
         backward += *itb;
 
     if (forward == backward)
-        std::cout << "String is palindrome" << std::endl;
+        std::cout << "String is palindrome"
+                  << std::endl;
     else
-        std::cout << "String is not palindrome" << std::endl;
+        std::cout << "String is not palindrome"
+                  << std::endl;
 
     return 0;
 }

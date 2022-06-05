@@ -5,7 +5,7 @@
 
 void showlist(std::list<int> g)
 {
-    using std::cout;
+	using std::cout;
 
 	std::list<int>::iterator it;
 	for (it = g.begin(); it != g.end(); ++it)
@@ -15,12 +15,13 @@ void showlist(std::list<int> g)
 
 int main()
 {
-    using std::cout;
-    using std::list;
+	using std::cout;
+	using std::list;
 
 	list<int> gqlist1, gqlist2;
 
-	for (int i = 0; i < 10; ++i) {
+	for (int i = 0; i < 10; ++i)
+	{
 		gqlist1.push_back(i * 2);
 		gqlist2.push_front(i * 3);
 	}
@@ -51,4 +52,3 @@ int main()
 
 	return 0;
 }
-
