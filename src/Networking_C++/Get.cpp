@@ -15,4 +15,6 @@ int main(int argc, char **argv)
 
     auto r = session.Get();
     cout << r.text << endl;
+
+    // work on parser for string/element extraction
 }
