@@ -20,7 +20,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
-std::string get_extract()
+std::string get_extract(/*pass args for user selected site*/)
 {
     auto response = cpr::Get(
         cpr::Url{DEFAULT_PAGE},
