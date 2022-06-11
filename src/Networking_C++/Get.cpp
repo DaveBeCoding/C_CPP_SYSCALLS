@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cpr/cpr.h>
 // gumbo (parser)
-
+#define DEFAULT_GET "https://en.wikipedia.org/wiki/Wikipedia"
 /*
 1. Build function for GET request
 2. Pass GET response to parser function
@@ -16,25 +16,14 @@ void links(/*GumboNode *node*/);
 
 int main(int argc, char **argv)
 {
-    /*
+    std::cout << get_extract() << std::endl;
+    return 0;
+}
 
-
-    */
-    // auto url = cpr::Url{"https://en.wikipedia.org/wiki/Wikipedia"};
-    // // auto parameters = cpr::Parameters{{"hello", "world"}};
-    // cpr::Session session;
-    // session.SetUrl(url);
-    // // session.SetParameters(parameters);
-    // session.SetVerifySsl(false);
-
-    // auto r = session.Get();
-    // cout << r.text << endl;
-
-    // work on parser for string/element extraction
-    // cpr::Url{"https://httpbin.org/get"}
-
-        auto response = cpr::Get(cpr::Url{"https://en.wikipedia.org/wiki/Wikipedia"},
-                             cpr::VerifySsl{false});
-    std::cout << "Status Code: " << response.status_code << std::endl;
-    std::cout << response.text << std::endl;
+std::string get_extract()
+{
+    auto response = cpr::Get(
+        cpr::Url{DEFAULT_GET},
+        cpr::VerifySsl{false});
+    return response.text;
 }

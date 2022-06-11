@@ -1,0 +1,17 @@
+// auto url = cpr::Url{"https://en.wikipedia.org/wiki/Wikipedia"};
+// // auto parameters = cpr::Parameters{{"hello", "world"}};
+// cpr::Session session;
+// session.SetUrl(url);
+// // session.SetParameters(parameters);
+// session.SetVerifySsl(false);
+
+// auto r = session.Get();
+// cout << r.text << endl;
+
+// work on parser for string/element extraction
+// cpr::Url{"https://httpbin.org/get"}
+
+// auto response = cpr::Get(cpr::Url{"https://en.wikipedia.org/wiki/Wikipedia"},
+//                          cpr::VerifySsl{false});
+// std::cout << "Status Code: " << response.status_code << std::endl;
+// std::cout << response.text << std::endl;
