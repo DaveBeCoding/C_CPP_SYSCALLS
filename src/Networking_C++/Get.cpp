@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cpr/cpr.h>
 // gumbo (parser)
-#define DEFAULT_GET "https://en.wikipedia.org/wiki/Wikipedia"
+#define DEFAULT_PAGE "https://en.wikipedia.org/wiki/Wikipedia"
 /*
 1. Build function for GET request
 2. Pass GET response to parser function
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 std::string get_extract()
 {
     auto response = cpr::Get(
-        cpr::Url{DEFAULT_GET},
+        cpr::Url{DEFAULT_PAGE},
         cpr::VerifySsl{false});
     return response.text;
 }
