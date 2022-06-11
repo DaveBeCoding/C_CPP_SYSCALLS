@@ -27,3 +27,9 @@ std::string get_extract(/*pass args for user selected site*/)
         cpr::VerifySsl{false});
     return response.text;
 }
+
+void element_lookup(/*GumboNode *node*/)
+{
+    // reinstall packagemanager for kernel, library not supported on current architecture
+    // Rosetta2 emulator <---
+}
