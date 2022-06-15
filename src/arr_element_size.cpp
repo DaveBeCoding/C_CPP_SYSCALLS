@@ -21,13 +21,13 @@ int main(int argc, char const *argv[])
               << "\t" << typeid(arrayA).name()
               << std::endl;
     std::cout << ARRAYSIZEB(arrayB)
-              << "\t" << typeid(arrayA).name()
+              << "\t" << typeid(arrayB).name()
               << std::endl;
     std::cout << ARRAYSIZEB(arrayC)
-              << "\t" << typeid(arrayA).name()
+              << "\t" << typeid(arrayC).name()
               << std::endl;
     std::cout << ARRAYSIZEB(arrayS)
-              << "\t" << typeid(arrayA).name()
+              << "\t" << typeid(arrayS).name()
               << std::endl;
     return 0;
 }
