@@ -13,7 +13,7 @@ int main()
     while ((std::cin >> input) && input != (std::string) "9999")
         str_source.push_back(input);
 
-    std::cout << "The numbers in the vector are: " << std::endl;
+    std::cout << "The string in the vector is: " << std::endl;
     std::copy(str_source.begin(), str_source.end(), std::ostream_iterator<std::string>(std::cout, " "));
 
     return 0;
