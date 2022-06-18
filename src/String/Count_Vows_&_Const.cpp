@@ -6,6 +6,8 @@ const int BASE_START(65);
 const char END_CHAR('z');
 const int BASE_END(90);
 
+bool counter_V();
+
 int main(int argc, char const *argv[])
 {
     auto val_count = 0;
