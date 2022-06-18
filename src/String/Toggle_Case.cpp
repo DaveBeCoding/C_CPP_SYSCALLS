@@ -14,16 +14,18 @@ int main(int argc, char const *argv[])
     {
         if (test[x] >= BASE_START && test[x] <= BASE_END)
         {
-            test[x] += CHAR_TOGGLE;
+            test[x] +=
+                CHAR_TOGGLE;
         }
         else if (test[x] >= START_CHAR && test[x] <= END_CHAR)
         {
-            test[x] -= CHAR_TOGGLE;
+            test[x] -=
+                CHAR_TOGGLE;
         }
     }
 
     std::cout
-        << "Flipped string "
+        << "Flipping string "
         << test
         << std::endl;
     return 0;
