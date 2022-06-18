@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <vector>
 #include <string>
 #include <iostream>
 #include <iterator>
+#include <algorithm>
 
 int main()
 {
@@ -15,6 +15,12 @@ int main()
 
     std::cout << "The string in the vector is: " << std::endl;
     std::copy(str_source.begin(), str_source.end(), std::ostream_iterator<std::string>(std::cout, " "));
+
+    // std::sort(str_source.begin(), str_source.end());
+    if (std::find(str_source.begin(), str_source.end(), "the") != str_source.end())
+    {
+        std::cout << "Found the string" << std::endl;
+    }
 
     return 0;
 }
