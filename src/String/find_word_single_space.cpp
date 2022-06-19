@@ -17,10 +17,6 @@ int main(int argc, char const *argv[])
         {
             word++;
         }
-        // else if (test[x] >= START_CHAR && test[x] <= END_CHAR)
-        // {
-        //     return 0;
-        // }
     }
 
     std::cout
