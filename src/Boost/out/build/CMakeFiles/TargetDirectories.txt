@@ -1,0 +1,3 @@
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/Boost/out/build/CMakeFiles/PROJECT_NAME.dir
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/Boost/out/build/CMakeFiles/edit_cache.dir
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/Boost/out/build/CMakeFiles/rebuild_cache.dir
