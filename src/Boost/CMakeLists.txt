@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.23.2)
+
+project(boosttest)
+
+FIND_PACKAGE( Boost 1.78 COMPONENTS program_options REQUIRED )
+
+INCLUDE_DIRECTORIES( ${Boost_INCLUDE_DIR} )
+
+ADD_EXECUTABLE( PROJECT_NAME test_Boost_include.cpp )
+
+TARGET_LINK_LIBRARIES( PROJECT_NAME LINK_PUBLIC ${Boost_LIBRARIES} )
