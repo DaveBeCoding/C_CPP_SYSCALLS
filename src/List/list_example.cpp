@@ -50,5 +50,10 @@ int main()
 	gqlist2.sort();
 	showlist(gqlist2);
 
+	// testing lines 
+	// to see
+	// if python script is working 
+	// correctly
+
 	return 0;
 }
