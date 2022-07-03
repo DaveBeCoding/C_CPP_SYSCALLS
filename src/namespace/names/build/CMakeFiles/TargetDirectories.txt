@@ -1,0 +1,3 @@
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/namespace/names/build/CMakeFiles/Namespace_Test.exe.dir
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/namespace/names/build/CMakeFiles/edit_cache.dir
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/namespace/names/build/CMakeFiles/rebuild_cache.dir
