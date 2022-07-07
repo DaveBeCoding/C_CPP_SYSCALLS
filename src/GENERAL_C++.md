@@ -208,3 +208,4 @@ https://stackoverflow.com/questions/8208021/how-to-increment-a-pointer-address-a
 https://stackoverflow.com/questions/14808908/pointer-to-2d-arrays-in-c
 https://stackoverflow.com/questions/39397322/declaring-a-2d-array-using-double-pointer
 https://stackoverflow.com/questions/9694838/how-to-implement-2d-vector-array
+https://stackoverflow.com/questions/26937550/two-dimensional-vector-printing
