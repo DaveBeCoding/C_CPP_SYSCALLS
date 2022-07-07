@@ -204,3 +204,4 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 ```cpp
 using my_id = my_type; //test ali tdef
 ```
+https://stackoverflow.com/questions/8208021/how-to-increment-a-pointer-address-and-pointers-value
