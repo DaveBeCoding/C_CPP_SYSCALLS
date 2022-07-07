@@ -200,3 +200,7 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 # START HERE
 - sample input
 <!-- section template -->
+
+```cpp
+using my_id = my_type; //test ali tdef
+```
