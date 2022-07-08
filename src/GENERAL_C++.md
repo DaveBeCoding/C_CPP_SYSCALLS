@@ -210,3 +210,4 @@ https://stackoverflow.com/questions/39397322/declaring-a-2d-array-using-double-p
 https://stackoverflow.com/questions/9694838/how-to-implement-2d-vector-array
 https://stackoverflow.com/questions/26937550/two-dimensional-vector-printing
 https://www.srcmake.com/home/google-cpp-test-framework
+https://www.section.io/engineering-education/an-introduction-to-machine-learning-using-c++/
