@@ -200,6 +200,7 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 # START HERE
 - sample input
 <!-- section template -->
+https://riptutorial.com/markdown/example/5225/subscript-superscript
 
 ```cpp
 using my_id = my_type; //test ali tdef
@@ -212,3 +213,5 @@ https://stackoverflow.com/questions/26937550/two-dimensional-vector-printing
 https://www.srcmake.com/home/google-cpp-test-framework
 https://www.section.io/engineering-education/an-introduction-to-machine-learning-using-c++/
 https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/
+
+<y'=a+bx> == < b<sub>0</sub>+b<sub>1</sub>X >
