@@ -201,7 +201,7 @@ std::vector<data> v1 = std::move(v0); //transfers ownership, "(cast)"
 - sample input
 <!-- section template -->
 https://riptutorial.com/markdown/example/5225/subscript-superscript
-
+https://www.codegrepper.com/code-examples/css/jupyter+markdown+sigma
 ```cpp
 using my_id = my_type; //test ali tdef
 ```
@@ -215,3 +215,8 @@ https://www.section.io/engineering-education/an-introduction-to-machine-learning
 https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/
 
 <y'=a+bx> == < b<sub>0</sub>+b<sub>1</sub>X >
+
+$$a^x=\sum_{i=0}^\infty \frac{1}{i!}x / \sum_{i=0}^\infty \frac{1}{i!}x^i$$
+
+
+$$b^x=\sum_{i=0}^\infty \frac{1}{i!}x / \sum_{i=0}^\infty \frac{1}{i!}x^i$$
