@@ -21,3 +21,5 @@ cout << "\nMaximum element of vector is: ";
                          cout << "\nElement found":
                      cout << "\nElement not found";
     ```
+
+https://www.geeksforgeeks.org/c-magicians-stl-algorithms/
