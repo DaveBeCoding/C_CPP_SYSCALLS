@@ -23,3 +23,5 @@ cout << "\nMaximum element of vector is: ";
     ```
 
 https://www.geeksforgeeks.org/c-magicians-stl-algorithms/
+
+https://www.freecodecamp.org/news/cpp-vector-how-to-initialize-a-vector-in-a-constructor/
