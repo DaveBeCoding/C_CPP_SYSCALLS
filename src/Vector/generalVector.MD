@@ -20,10 +20,14 @@ cout << "\nMaximum element of vector is: ";
     find(vect.begin(), vect.end(),5) != vect.end()?
                          cout << "\nElement found":
                      cout << "\nElement not found";
-    ```
+```
+
+```js
 
 https://www.geeksforgeeks.org/c-magicians-stl-algorithms/
 
 https://www.freecodecamp.org/news/cpp-vector-how-to-initialize-a-vector-in-a-constructor/
 
 https://stackoverflow.com/questions/2236197/what-is-the-easiest-way-to-initialize-a-stdvector-with-hardcoded-elements
+
+```
