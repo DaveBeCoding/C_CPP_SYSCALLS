@@ -229,3 +229,4 @@ https://opensource.com/article/20/2/c-data-science
 https://www.geeksforgeeks.org/algorithms-library-c-stl/
 
 boost -> https://www.bogotobogo.com/cplusplus/boost.php
+cmake located -> compiling
