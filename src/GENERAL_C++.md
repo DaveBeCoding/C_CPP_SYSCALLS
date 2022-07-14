@@ -227,3 +227,5 @@ $$b^x=\sum_{i=0}^\infty \frac{1}{i!}x / \sum_{i=0}^\infty \frac{1}{i!}x^i$$
 
 https://opensource.com/article/20/2/c-data-science
 https://www.geeksforgeeks.org/algorithms-library-c-stl/
+
+boost -> https://www.bogotobogo.com/cplusplus/boost.php
