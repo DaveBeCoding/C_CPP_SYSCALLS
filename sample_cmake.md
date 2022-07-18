@@ -30,4 +30,10 @@ find_package(Boost COMPONENTS)
 add_executable(main.exe main.cxx)
 target_link_libraries(${Boost_LIBRARIES} main.exe)
 
+
+//note
+
+// cmake .. -DBOOST_ROOT="/path/to/dir/boost_1_79_0" -DBOOST_LIBRARYDIR="/path/to/dir/boost_1_79_0/boost"
+// ./main.exe install --prefix="/path/to/dir/boost_1_79_0" --with-system --with-date_time --with-random link=static runtime-link=shared threading=multi
+
 ```
