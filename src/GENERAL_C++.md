@@ -230,3 +230,5 @@ https://www.geeksforgeeks.org/algorithms-library-c-stl/
 
 boost -> https://www.bogotobogo.com/cplusplus/boost.php
 cmake located -> compiling
+
+https://www.educative.io/answers/how-to-find-the-length-of-an-array-in-cpp
