@@ -235,6 +235,7 @@ https://www.educative.io/answers/how-to-find-the-length-of-an-array-in-cpp
 
 https://www.youtube.com/watch?v=lZ4VytXLNSo
 
+# TEST
 
 ```cpp
 
@@ -255,6 +256,7 @@ https://www.youtube.com/watch?v=lZ4VytXLNSo
 
 #define funct1 even_or_odd(unumbers[index])
 #define SYS_CLEAR system("clear")
+#define CONDITIONS cin >> unumbers[index] && unumbers[index] != -1 && index <= MAX
 
 void even_or_odd(int);
 void ClearScreen();
@@ -278,7 +280,7 @@ int main(int argc, char const *argv[])
     try
 
     {
-        while (cin >> unumbers[index] && unumbers[index] != -1 && index <= MAX)
+        while (CONDITIONS)
         {
             ClearScreen();
             msg1;
