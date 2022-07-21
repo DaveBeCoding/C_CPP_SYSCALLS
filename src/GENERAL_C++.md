@@ -234,3 +234,96 @@ cmake located -> compiling
 https://www.educative.io/answers/how-to-find-the-length-of-an-array-in-cpp
 
 https://www.youtube.com/watch?v=lZ4VytXLNSo
+
+
+```cpp
+
+#include <iostream>
+
+#define MAX 10
+#define msg1 cout << " Input number to check classification, "
+#define msg2 cout << "and parity of value input " << endl
+#define msg3 cout << " STL TRICKS, Press Enter..." << endl
+
+#define promt1 cout << "\nCurrent Index is -> " << index << endl
+#define promt2 cout << "\nCurrent Value is -> " << unumbers[index] << endl
+#define promt3 cout << "\nCurrent Value Parity -> "
+#define promt4 cout << "INPUT FAILED, PRESS ENTER" << endl
+
+#define promt5 cout << "odd\n"
+#define promt6 cout << "even\n"
+
+#define funct1 even_or_odd(unumbers[index])
+#define SYS_CLEAR system("clear")
+
+void even_or_odd(int);
+void ClearScreen();
+int container_Size(int arr[]);
+
+int main(int argc, char const *argv[])
+{
+    using std::cin;
+    using std::cout;
+    using std::endl;
+
+    int unumbers[10], index = 0;
+
+    msg3;
+    cin.get();
+
+    ClearScreen();
+
+    msg1;
+    msg2;
+    try
+
+    {
+        while (cin >> unumbers[index] && unumbers[index] != -1 && index <= MAX)
+        {
+            ClearScreen();
+            msg1;
+            msg2;
+
+            promt1;
+            promt2;
+            promt3;
+            funct1;
+
+            index++;
+        }
+    }
+
+    catch (const std::exception &e)
+    {
+        promt4;
+        cin.get();
+
+        std::cerr << e.what() << '\n';
+    }
+    return 0;
+}
+
+void even_or_odd(int num)
+{
+    using std::cout;
+    using std::endl;
+
+    if (num & 1)
+        promt5;
+    else
+        promt6;
+}
+
+void ClearScreen()
+{
+    SYS_CLEAR;
+}
+
+// NOTES
+/*
+  kanban -.
+  tdd -> Test Driven Developement
+  fdd -> Feature-drive Development (FDD)     }
+*/
+
+```
