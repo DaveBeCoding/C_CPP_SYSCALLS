@@ -240,23 +240,7 @@ https://www.youtube.com/watch?v=lZ4VytXLNSo
 ```cpp
 
 #include <iostream>
-
-#define MAX 10
-#define msg1 cout << " Input number to check classification, "
-#define msg2 cout << "and parity of value input " << endl
-#define msg3 cout << " STL TRICKS, Press Enter..." << endl
-
-#define promt1 cout << "\nCurrent Index is -> " << index << endl
-#define promt2 cout << "\nCurrent Value is -> " << unumbers[index] << endl
-#define promt3 cout << "\nCurrent Value Parity -> "
-#define promt4 cout << "INPUT FAILED, PRESS ENTER" << endl
-
-#define promt5 cout << "odd\n"
-#define promt6 cout << "even\n"
-
-#define funct1 even_or_odd(unumbers[index])
-#define SYS_CLEAR system("clear")
-#define CONDITIONS cin >> unumbers[index] && unumbers[index] != -1 && index <= MAX
+#include "define.hpp"
 
 void even_or_odd(int);
 void ClearScreen();
@@ -268,8 +252,9 @@ int main(int argc, char const *argv[])
     using std::cout;
     using std::endl;
 
-    int unumbers[10], index = 0;
+    int unumbers[MAX], index = MAX - MAX;
 
+    //freestyle::printME();
     msg3;
     cin.get();
 
@@ -320,12 +305,4 @@ void ClearScreen()
 {
     SYS_CLEAR;
 }
-
-// NOTES
-/*
-  kanban -.
-  tdd -> Test Driven Developement
-  fdd -> Feature-drive Development (FDD)     }
-*/
-
 ```
