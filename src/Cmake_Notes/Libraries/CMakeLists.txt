@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.23.2)
+cmake_minimum_required(VERSION 3.23.2) # <...>
 
-preoject(test_example)
+preoject(test_example) # <...>
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp) # <...>
 
-add_subdirectories(Sum)
+add_subdirectories(Sum) # [...]
 
 target_include_directories(${PROJECT_NAME} PUBLIC Sum) # <my_name.hxx> (main)
-target_link_directories(${PROJECT_NAME} PRIVATE Sum/)
-target_link_libraries(${PROJECT_NAME} sum)
+target_link_directories(${PROJECT_NAME} PRIVATE Sum/) # lib -> starts @ build <dir> -> cmake -S <file...files> -B <dir..dirs>
+target_link_libraries(${PROJECT_NAME} sum) # <ld> -> project
