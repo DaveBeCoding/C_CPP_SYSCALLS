@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Sum/sum.hpp"
+#include <sum.hpp>
 
 int main(){
   
