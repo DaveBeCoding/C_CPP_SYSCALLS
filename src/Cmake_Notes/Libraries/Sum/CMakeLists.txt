@@ -1,1 +1,1 @@
-add_libraries(sums sums.cpp)
+add_library(sums sums.cpp sums.hpp)
