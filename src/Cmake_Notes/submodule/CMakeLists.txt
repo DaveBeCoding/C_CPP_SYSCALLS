@@ -35,5 +35,3 @@ target_link_directories(${PROJECT_NAME}.exe
                         PRIVATE external/<something>/where/do/I/live/src)
 
 target_link_libraries(${PROJECT_NAME}.exe something) # .a -> object(s)
-
-
