@@ -1,6 +1,8 @@
 #include <iostream>
 #include <SOMETHING/something.h>
 
+#define EASY_LIB 10
+
 int main(int argc, char const *argv[])
 {
     std::cout << "test submodule for git/github\n";
