@@ -6,6 +6,8 @@
 int main(int argc, char const *argv[])
 {
     std::cout << "test submodule for git/github\n";
+    std::cout << "RUN EASY LIB " << EASY_LIB
+                        << "(SHAMWOW!)\n";
 
 //     GLFWwindow *window;
 //     int width, height;
