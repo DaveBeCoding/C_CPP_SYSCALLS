@@ -4,7 +4,7 @@ project(example_run)
 
 add_executable(${PROJECT_NAME}.exe main.cxx)
 
-# START
+# START();
 # get <something> from hub
 find_package(Git QUIET)
 if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
@@ -25,7 +25,7 @@ endif()
 if(NOT EXISTS "${PROJECT_SOURCE_DIR}/external/<something>/CMakeLists.txt")
     message(FATAL_ERROR "The <something> submodules was not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
 endif()
-# END
+# END();
 
 add_subdirectory(external/<something>)
 target_include_directories(${PROJECT_NAME}.exe 
