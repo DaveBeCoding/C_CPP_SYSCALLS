@@ -1,37 +1,37 @@
 #include <iostream>
-#include <GLFW/glfw3.h>
+#include <SOMETHING/something.h>
 
 int main(int argc, char const *argv[])
 {
     std::cout << "test submodule for git/github\n";
 
-    GLFWwindow *window;
-    int width, height;
+//     GLFWwindow *window;
+//     int width, height;
 
-    if (!glfwInit())
-    {
-        fprintf(stderr, "Failed to initialize GLFW\n");
-        exit(EXIT_FAILURE);
-    }
+//     if (!glfwInit())
+//     {
+//         fprintf(stderr, "Failed to initialize GLFW\n");
+//         exit(EXIT_FAILURE);
+//     }
 
-    window = glfwCreateWindow(300, 300, "GOTCHA!", NULL, NULL);
-    if (!window)
-    {
-        fprintf(stderr, "Failed to open GLFW window\n");
-        glfwTerminate();
-        exit(EXIT_FAILURE);
-    }
+//     window = glfwCreateWindow(300, 300, "GOTCHA!", NULL, NULL);
+//     if (!window)
+//     {
+//         fprintf(stderr, "Failed to open GLFW window\n");
+//         glfwTerminate();
+//         exit(EXIT_FAILURE);
+//     }
 
-    // Main loop
-    while (!glfwWindowShouldClose(window))
-    {
-        // Swap buffers
-        glfwSwapBuffers(window);
-        glfwPollEvents();
-    }
+//     // Main loop
+//     while (!glfwWindowShouldClose(window))
+//     {
+//         // Swap buffers
+//         glfwSwapBuffers(window);
+//         glfwPollEvents();
+//     }
 
-    // Terminate GLFW
-    glfwTerminate();
+//     // Terminate GLFW
+//     glfwTerminate();
 
     return 0;
 }
