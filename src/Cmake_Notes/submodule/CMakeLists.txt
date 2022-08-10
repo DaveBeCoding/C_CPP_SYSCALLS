@@ -34,4 +34,4 @@ target_include_directories(${PROJECT_NAME}.exe
 target_link_directories(${PROJECT_NAME}.exe
                         PRIVATE external/<something>/where/do/I/live/src)
 
-target_link_libraries(${PROJECT_NAME}.exe something) # .a -> object(s)
+target_link_libraries(${PROJECT_NAME}.exe something) # .a -> object(s), gti submodule add <something> <some/where/nice>
