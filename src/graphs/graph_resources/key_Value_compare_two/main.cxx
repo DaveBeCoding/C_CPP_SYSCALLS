@@ -3,6 +3,13 @@
 #include <map>
 #include <utility>
  
+
+/*
+Override the default order without using the comparison object.
+
+Specialize std::less in the std namespace.       
+*/
+
 typedef std::pair<std::string, std::string> pair;
  
 namespace std
