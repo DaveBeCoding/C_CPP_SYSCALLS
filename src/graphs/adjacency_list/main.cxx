@@ -42,7 +42,7 @@ void dfs(std::map<char, std::vector<char>> mygraph, char source)
     while (!stack.empty())
     {
         char current = stack.top();
-        std::cout << "\tstack -> " << stack.top() << "\n";
+        std::cout << "\tstack -> " << current << "\n";
         stack.pop();
         mygraph[current];
     }
