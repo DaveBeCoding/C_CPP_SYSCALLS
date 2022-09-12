@@ -1,13 +1,11 @@
 #include <iostream>
-#include "externals/std_math/test.hpp" //Part of Automation Project-Script <starterpack++> ... ignore = true;
+// #include <string>
 #include <map>
 #include <vector>
 
-// Adjacency list example
 int main()
 {
-    // std::unordered_map = O(1) if order of key(s) don't matter
-    std::map<char, std::vector<char>> map;
+    std::map<char, std::vector<char>> map; // could use std::unordered_map as well for O(1) lookup if order of keys doesn't matter
     map['a'].push_back('b');
     map['a'].push_back('c');
     map['b'].push_back('d');
@@ -25,4 +23,4 @@ int main()
         }
         std::cout << std::endl;
     }
-} // working off of javascript objects https://github.com/DaveBeCoding/Helper_JS_Files/blob/main/js_trees/dfs_bfs/dfs_and_bfs.js
+}
