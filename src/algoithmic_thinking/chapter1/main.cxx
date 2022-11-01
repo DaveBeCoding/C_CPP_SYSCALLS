@@ -9,6 +9,7 @@ for (i = 0; i < n; i++) {
 for (j = i+1; j < n; j++) {
 if (values[i] == values[j]) {
 printf("Twin integers found.\n");
+std::cout << i << " i and j " << j << std::endl;
 return;
 }
 }
