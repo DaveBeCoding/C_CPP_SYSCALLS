@@ -34,7 +34,14 @@ return 1;
 }
 
 //ex3 - 
-
+int identical_right(int snow1[], int snow2[], int start) {
+int offset;
+for (offset =0; offset < 6; offset++) {
+if (snow1[offset] != snow2[(start + offset) % 6])
+return 0;
+}
+return 1;
+}
 
 
 int main(int argc, char const *argv[])
