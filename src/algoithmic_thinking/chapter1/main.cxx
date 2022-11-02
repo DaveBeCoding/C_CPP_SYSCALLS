@@ -2,7 +2,7 @@
 #include "externals/std_math/test.hpp" //Part of Automation Project-Script <starterpack++> ... ignore = true;
 
 
-
+//ex1
 void identify_identical(int values[], int n) {
 int i, j;
 for (i = 0; i < n; i++) {
@@ -16,6 +16,25 @@ return;
 }
 printf("No two integers are alike.\n");
 }
+
+
+
+//ex2 - second function to wrap around array, still buggy
+int identical_right(int snow1[], int snow2[],
+int start) {
+int offset, snow2_index;
+for (offset =0; offset < 6; offset++) {
+snow2_index = start + offset;
+if (snow2_index >= 6)
+snow2_index = snow2_index - 6;
+if (snow1[offset] != snow2[snow2_index])
+return 0;
+}
+return 1;
+}
+
+//ex3 - 
+
 
 
 int main(int argc, char const *argv[])
