@@ -33,7 +33,7 @@ return 0;
 return 1;
 }
 
-//ex3 - 
+//ex3 - start right and move around to the left
 int identical_right(int snow1[], int snow2[], int start) {
 int offset;
 for (offset =0; offset < 6; offset++) {
@@ -43,6 +43,8 @@ return 0;
 return 1;
 }
 
+//wrap around to the left,s start left and move right
+int identical_left();
 
 int main(int argc, char const *argv[])
 {
