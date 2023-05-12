@@ -1,0 +1,3 @@
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/friendFunct/secondExample/build/CMakeFiles/Friend_Funct.dir
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/friendFunct/secondExample/build/CMakeFiles/edit_cache.dir
+/Users/dave/Documents/src/c++/C_CPP_SYSCALLS/src/friendFunct/secondExample/build/CMakeFiles/rebuild_cache.dir
