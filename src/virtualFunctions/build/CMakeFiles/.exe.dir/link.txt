@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/.exe.dir/main.cxx.o -o .exe 

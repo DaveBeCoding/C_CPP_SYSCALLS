@@ -1,0 +1,3 @@
+/home/cpud/Documents/src/c++/C_CPP_SYSCALLS/src/virtualFunctions/build/CMakeFiles/Virtual_Funct.dir
+/home/cpud/Documents/src/c++/C_CPP_SYSCALLS/src/virtualFunctions/build/CMakeFiles/edit_cache.dir
+/home/cpud/Documents/src/c++/C_CPP_SYSCALLS/src/virtualFunctions/build/CMakeFiles/rebuild_cache.dir
