@@ -1,0 +1,3 @@
+Virtual Function: member function in the base class that is redifined in the dervived class.
+- it is always defined in the base class.
+
